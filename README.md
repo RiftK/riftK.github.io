@@ -1,2 +1,2 @@
-# riftK.github.io
+# riftk.github.io
 Portfolio website
