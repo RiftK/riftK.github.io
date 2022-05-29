@@ -3,10 +3,10 @@
 body {
     margin: 0;
     text-align: center;
+    background-color: #C4DDFF
 }
 
 .top {
-    background-color: #C4DDFF;
     padding-top: 1px;
 
 }
@@ -14,7 +14,6 @@ body {
 h1 {
     font-family: "Montserrat", sans-serif;
     font-size: 5.625rem;
-    margin: 50px auto 0;
     color: #001D6E;
 }
 
@@ -45,6 +44,7 @@ h2 {
 
 .aboutme {
     width: 100rem;
+    height: 8rem;
     margin: auto;
     background-color: #E4F6F6;
     padding-top: 1px;
@@ -57,11 +57,11 @@ a {
 }
 
 a:link {
-    color: #265301;
+    color: rgb(35, 142, 214);
 }
 
 a:visited {
-    color: #437A16;
+    color: #236d70;
 }
 
 a:focus {
@@ -71,10 +71,28 @@ a:focus {
 
 a:hover {
     border-bottom: 1px solid;
-    background: #CDFEAA;
+    background: rgb(186, 224, 250);
 }
 
 a:active {
     background: #265301;
     color: #CDFEAA;
+}
+
+li {
+    list-style: none;
+    margin: 10px 30px;
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+    color: rgb(35, 94, 231);
+    border: 1px solid rgb(35, 94, 231);
+    border-radius: 50%;
+    transition: 0s;
+}
+
+li:hover {
+    color: white;
+    border: 1px solid white;
+    transition: 0s;
 }
